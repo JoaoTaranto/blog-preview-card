@@ -1,0 +1,98 @@
+/* IMPORT FONT */
+
+@font-face {
+    font-family: "Figtree", sans-serif;
+    src: url(../assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+/* BACKGROUND COLOR */
+body {
+    background-color: #f4d04e;
+}
+
+/* RESET CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+    font-size: 1rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.app-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    height: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-content {
+    background-color: #fff;
+    width: 384px;
+    height: 522px;
+    border: 0.3px solid #121212;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 24px;
+    border-radius: 20px;
+    gap: 24px;
+    box-shadow: 8px 8px 0px #000;
+}
+
+.image-section img{
+    border-radius: 10px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+span {
+    max-width: 82px;
+    background-color: #f4d04e;
+    text-align: center;
+    border-radius: 4px;
+    padding: 4px 0px 4px 0px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    color: #121212;
+}
+
+.text-content p {
+    color: #121212;
+}
+.text-content h1 { 
+    font-size: 1.3rem;
+    font-weight: 800;  
+}
+.text-content h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #6b6b6b;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 12px;
+    gap: 12px;
+
+}
+.author img {
+    width: 32px;
+    height: 32px;
+}
+.author P {
+    font-size: 0.875rem;
+    font-weight: 800;
+}

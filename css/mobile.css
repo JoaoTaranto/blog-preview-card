@@ -1,0 +1,15 @@
+@media (max-width: 375px) {
+    .app-container {
+        max-width: 375px;
+        height: 812px;
+    }
+    
+    .app-content {
+        width: 327px;
+        height: 501px;
+    }
+    
+    .image-section img {
+        width: 279px;
+    }
+}
